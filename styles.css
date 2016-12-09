@@ -1,1 +1,1 @@
-.container .gallery__panel .gallery__full .gallery__pane .images{border:1px solid #000}.container .gallery__panel .gallery__full .gallery__pane .images .image{border:1px solid #000}
+.container .gallery__panel .gallery__full .gallery__pane .images{border:1px solid #000;list-style:none;white-space:nowrap;overflow:scroll}.container .gallery__panel .gallery__full .gallery__pane .images .image{border:1px solid #000;display:inline-block}
