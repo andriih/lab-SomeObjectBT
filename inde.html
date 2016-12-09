@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BT Lab 2</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </head>
@@ -163,7 +164,7 @@
 
     <div class="gallery">
             <div class="panel-group">
-                <div class="panel panel-default">
+                <div class="panel panel-default gallery__panel">
                     <div class="panel-heading">
                         <div class="panel-title">
                             Galleries
@@ -181,7 +182,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="panel-body">
+                    <div class="panel-body gallery__full">
                         <ul class="nav nav-tabs">
                             <li role="presentation" class="active" ><a href="#">Photos</a></li>
                             <li role="presentation"><a href="#">Apartment schemas</a></li>
@@ -212,9 +213,69 @@
                                     </li>
 
                                     <li class="image">
-                                        <div class="image__picture"></div>
-                                        <div class="image__desc"></div>
-                                        <div class="image__controls"></div>
+                                        <div class="image__picture">
+                                            <div class="pic-selector">
+                                                <img src="https://placehold.it/700x400" alt="" class="img-thumbnail pic-selector__pic">
+                                                <button class="btn btn-link">Change</button>
+                                            </div>
+                                        </div>
+                                        <div class="image__desc">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ex, sequi debitis. A veniam repellendus laboriosam eveniet excepturi quod laudantium modi, delectus, nobis voluptatum maxime, numquam ratione. Tempora, porro voluptatibus.
+                                        </div>
+                                        <div class="image__controls">
+                                            <div class="btn btn-group">
+                                                <button class="btn-primary">
+                                                    <span class="glyphicon glyphicon-pencil"></span>
+                                                    Save
+                                                </button>
+                                                <button class="btn-link">
+                                                    <span class="glyphicon glyphicon-trash"></span>
+                                                    cancel
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="image">
+                                        <div class="image__picture">
+                                            <img src="https://placehold.it/700x300" alt="">
+                                        </div>
+                                        <div class="image__desc">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium culpa ea ipsam odio quisquam. Aliquid, amet cum, dolores ducimus, enim est in iste laudantium magnam pariatur quaerat quod soluta.</p>
+                                        </div>
+                                        <div class="image__controls">
+                                            <div class="btn btn-group">
+                                                <button class="btn-primary">
+                                                    <span class="glyphicon glyphicon-pencil"></span>
+                                                    Edit
+                                                </button>
+                                                <button class="btn-link">
+                                                    <span class="glyphicon glyphicon-trash"></span>
+                                                    Remove
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="image">
+                                        <div class="image__picture">
+                                            <img src="https://placehold.it/700x300" alt="">
+                                        </div>
+                                        <div class="image__desc">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium culpa ea ipsam odio quisquam. Aliquid, amet cum, dolores ducimus, enim est in iste laudantium magnam pariatur quaerat quod soluta.</p>
+                                        </div>
+                                        <div class="image__controls">
+                                            <div class="btn btn-group">
+                                                <button class="btn-primary">
+                                                    <span class="glyphicon glyphicon-pencil"></span>
+                                                    Edit
+                                                </button>
+                                                <button class="btn-link">
+                                                    <span class="glyphicon glyphicon-trash"></span>
+                                                    Remove
+                                                </button>
+                                            </div>
+                                        </div>
                                     </li>
 
                                     <li class="image">
@@ -224,15 +285,45 @@
                                     </li>
 
                                     <li class="image">
-                                        <div class="image__picture"></div>
-                                        <div class="image__desc"></div>
-                                        <div class="image__controls"></div>
+                                        <div class="image__picture">
+                                            <img src="https://placehold.it/700x300" alt="">
+                                        </div>
+                                        <div class="image__desc">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium culpa ea ipsam odio quisquam. Aliquid, amet cum, dolores ducimus, enim est in iste laudantium magnam pariatur quaerat quod soluta.</p>
+                                        </div>
+                                        <div class="image__controls">
+                                            <div class="btn btn-group">
+                                                <button class="btn-primary">
+                                                    <span class="glyphicon glyphicon-pencil"></span>
+                                                    Edit
+                                                </button>
+                                                <button class="btn-link">
+                                                    <span class="glyphicon glyphicon-trash"></span>
+                                                    Remove
+                                                </button>
+                                            </div>
+                                        </div>
                                     </li>
 
                                     <li class="image">
-                                        <div class="image__picture"></div>
-                                        <div class="image__desc"></div>
-                                        <div class="image__controls"></div>
+                                        <div class="image__picture">
+                                            <img src="https://placehold.it/700x300" alt="">
+                                        </div>
+                                        <div class="image__desc">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium culpa ea ipsam odio quisquam. Aliquid, amet cum, dolores ducimus, enim est in iste laudantium magnam pariatur quaerat quod soluta.</p>
+                                        </div>
+                                        <div class="image__controls">
+                                            <div class="btn btn-group">
+                                                <button class="btn-primary">
+                                                    <span class="glyphicon glyphicon-pencil"></span>
+                                                    Edit
+                                                </button>
+                                                <button class="btn-link">
+                                                    <span class="glyphicon glyphicon-trash"></span>
+                                                    Remove
+                                                </button>
+                                            </div>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
